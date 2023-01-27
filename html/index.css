@@ -1,0 +1,107 @@
+body{
+    background-image: url('background.svg');
+    display: grid;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.forms{
+    padding: 5%;
+}
+.top-container{
+    /* background-color: gray; */
+    /* border: 1px solid black; */
+    display: grid;    
+    grid-template-columns: repeat(2 ,auto);
+    grid-template-rows: repeat(2 ,auto);
+}
+.left-container{
+    /* background-color:yellow; */
+    display: grid;    
+    grid-template-columns: repeat(4 , 120px);
+    grid-template-rows: repeat(2 , 100px);
+}
+.left-item-1{
+    /* background-color: tomato; */
+    color:aliceblue;
+    text-align: center;    
+    background-image: url('kolkata.svg');
+    background-repeat: no-repeat;
+}
+.left-item-2{
+    color:aliceblue;
+    text-align: center;
+}.left-item-3{
+    color:aliceblue;
+    border-right:1px solid white;
+    text-align: center;
+}.left-item-4{
+    color:aliceblue;
+    text-align: center;
+}.left-item-5{
+    color:aliceblue;
+    background-image: no-repeat;
+    text-align: center;
+}
+.left-item-6{
+    color:aliceblue;
+    text-align: center;
+}
+.left-item-7{
+    color:aliceblue;
+    text-align: center;
+    border-right:1px solid white;
+}
+.left-item-8{
+    color:aliceblue;
+    text-align: center;
+}
+
+.right-container{
+    display: grid;
+    grid-template-columns: repeat(11 , 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.right-item-1{
+    color: white;
+    text-align: center;
+}
+.right-item-2{
+    color: white;
+    text-align: center;
+}
+.right-item-3{
+    color: white;
+    text-align: center;
+}
+.right-item-4{
+    color: white;
+    text-align: center;
+}
+.right-item-5{
+    color: white;
+    text-align: center;
+}
+.right-item-6{
+    color: white;
+    text-align: center;
+}
+.right-item-7{
+    color: white;
+    text-align: center;
+}
+.right-item-8{
+    color: white;
+    text-align: center;
+}
+.right-item-9{
+    color: white;
+    text-align: center;
+}
+.right-item-10{
+    color: white;
+    text-align: center;
+}
+.right-item-11{
+    color: white;
+    text-align: center;
+}
